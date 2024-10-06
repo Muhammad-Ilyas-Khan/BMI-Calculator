@@ -12,15 +12,14 @@
     <h1>BMI Calculator</h1>
 
    <label for="weight">Weight</label>
-   <input type="number" class="input-box">
+   <input type="number" class="input-box" id="weight">
     
     <label for="height">Height</label>
-    <input type="number" class="input-box">
+    <input type="number" class="input-box" id="height">
 
 
-   <button>Calculate</button>
-   <div class="result">BMI</div> 
-</div>
+   <button onclick="calculateBMI()">Calculate</button>
+   <div class="result" id="result" div></div>
 
     <script src="./script.js"></script>
 </body>
